@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <SwitchPreferenceCompat
+        android:key="com.example.tabatatimer.NIGHT_MODE_PREFERENCE"
+        android:title="@string/night_mode"
+        android:defaultValue="false"
+        app:iconSpaceReserved="false"
+        app:allowDividerBelow="true" />
+
+    <ListPreference
+        android:key="com.example.tabatatimer.LOCALE_PREFERENCE"
+        android:title="@string/language"
+        android:entries="@array/locale_entries"
+        android:entryValues="@array/locale_values"
+        app:iconSpaceReserved="false"
+        app:allowDividerAbove="true"
+        app:allowDividerBelow="true"
+        android:defaultValue="en" />
+
+    <ListPreference
+        android:key="com.example.tabatatimer.FONT_SIZE_PREFERENCE"
+        android:title="@string/font_size"
+        android:entries="@array/font_size_entries"
+        android:entryValues="@array/font_size_values"
+        app:iconSpaceReserved="false"
+        app:allowDividerAbove="true"
+        app:allowDividerBelow="true"
+        android:defaultValue="1" />
+
+    <Preference
+        android:key="com.example.tabatatimer.CLEAR_DATA_PREFERENCE"
+        android:title="@string/clear_app_data"
+        app:iconSpaceReserved="false"
+        app:allowDividerAbove="true" />
+
+</PreferenceScreen>

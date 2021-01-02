@@ -1,0 +1,28 @@
+package com.example.tabatatimer
+
+object Constants {
+    const val RECREATE = "com.example.tabatatimer.RECREATE"
+    const val LOCALE_PREFERENCE = "com.example.tabatatimer.LOCALE_PREFERENCE"
+    const val CLEAR_DATA_PREFERENCE = "com.example.tabatatimer.CLEAR_DATA_PREFERENCE"
+    const val ID = "com.example.tabatatimer.ID"
+    const val MESSAGE = "com.example.tabatatimer.MESSAGE"
+    const val TICK = "com.example.tabatatimer.TICK"
+    const val PHASE = "com.example.tabatatimer.PHASE"
+    const val CYCLES = "com.example.tabatatimer.CYCLES"
+    const val FINISHED = "com.example.tabatatimer.FINISHED"
+    const val ARROW = "com.example.tabatatimer.ARROW"
+    const val PLAY_PAUSE = "com.example.tabatatimer.PLAY_PAUSE"
+    const val LEFT = "com.example.tabatatimer.LEFT"
+    const val COUNTER = "com.example.tabatatimer.COUNTER"
+    const val IMAGE = "com.example.tabatatimer.IMAGE"
+    const val NEXT = "com.example.tabatatimer.NEXT"
+    const val PREV = "com.example.tabatatimer.PREV"
+    const val PLAY = "com.example.tabatatimer.PLAY"
+    const val PAUSE = "com.example.tabatatimer.PAUSE"
+    const val CYCLE = "com.example.tabatatimer.CYCLE"
+    const val PREPARATION = "com.example.tabatatimer.PREPARATION"
+    const val WORKOUT = "com.example.tabatatimer.WORKOUT"
+    const val REST = "com.example.tabatatimer.REST"
+    const val NIGHT_MODE_PREFERENCE = "com.example.tabatatimer.NIGHT_MODE_PREFERENCE"
+    const val FONT_SIZE_PREFERENCE = "com.example.tabatatimer.FONT_SIZE_PREFERENCE"
+}
